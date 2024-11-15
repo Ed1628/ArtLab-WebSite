@@ -1,0 +1,64 @@
+@keyframes title {
+    0% {
+      top: 0px;
+    }
+
+  }
+
+  @keyframes alert {
+    0% {
+      opacity: 0%;
+     
+    }
+   
+
+ 
+    
+
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%;
+    line-height: 1.8;
+  }
+
+  /* Full height image header */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/paint_desk.jpg");
+    min-height: 100%;
+  }
+
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+
+  #title1 {
+    animation: title;
+    animation-duration: 5s;
+
+  }
+
+  #alert-box {
+    display: none;
+    background-color: red;
+  }
+  #card-box {
+    height: 500px;
+    width: 400px;
+  }
+ #sculptures {
+  display: flex;
+ }
